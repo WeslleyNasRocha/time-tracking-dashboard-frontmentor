@@ -24,8 +24,6 @@
     selectedTimeframe_value = value;
   });
 
-  console.log(selectedTimeframe);
-
   const getCardColor = (type: CardType) => {
     switch (type) {
       case "work":
